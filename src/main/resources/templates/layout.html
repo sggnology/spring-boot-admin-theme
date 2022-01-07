@@ -25,15 +25,15 @@
 
   <div class="container-fluid h-100">
     <div class="row h-100">
-      <!-- 사이드바    -->
+      <!-- SIDEBAR -->
       <th:block th:replace="/fragment/layout/sidebar.html :: sidebar"></th:block>
 
       <div class="offset-md-2 col-md-10 pt-2">
         <div class="d-flex flex-column flex-grow-1 h-100">
-          <!-- 주 내용  -->
+          <!-- MAIN CONTENT -->
           <main layout:fragment="content"></main>
 
-          <!-- 푸터   -->
+          <!-- FOOTER -->
           <th:block th:replace="/fragment/layout/footer.html :: footer"></th:block>
         </div>
       </div>
@@ -41,6 +41,7 @@
   </div>
 
   <!-- CONFIG JS -->
+  <th:block th:replace="/fragment/configScript/configScript.html :: configScript"></th:block>
 
   <!-- PAGE JS -->
   <th:block layout:fragment="script"></th:block>
