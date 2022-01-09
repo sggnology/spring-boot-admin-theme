@@ -23,7 +23,5 @@ main {
 }
 
 footer{
-    height: 120px;
-    background-color: #8f9293;
-    opacity: 0.25;
+    /*height: 120px;*/
 }

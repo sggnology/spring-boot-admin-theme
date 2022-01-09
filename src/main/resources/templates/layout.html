@@ -31,7 +31,9 @@
       <div class="offset-md-2 col-md-10 pt-2">
         <div class="d-flex flex-column flex-grow-1 h-100">
           <!-- MAIN CONTENT -->
-          <main layout:fragment="content"></main>
+          <main>
+            <div layout:fragment="content"></div>
+          </main>
 
           <!-- FOOTER -->
           <th:block th:replace="/fragment/layout/footer.html :: footer"></th:block>

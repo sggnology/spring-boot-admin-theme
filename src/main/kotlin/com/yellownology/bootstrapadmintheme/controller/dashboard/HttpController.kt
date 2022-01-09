@@ -9,6 +9,6 @@ class HttpController {
 
     @RequestMapping("")
     fun dashboardPage(): String{
-        return "layout"
+        return "view/dashboard/content"
     }
 }
