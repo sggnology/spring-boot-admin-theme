@@ -23,29 +23,33 @@
 </head>
 <body>
 
-  <div class="container-fluid h-100">
-    <div class="row h-100">
-      <!-- SIDEBAR -->
-      <th:block th:replace="/fragment/layout/sidebar.html :: sidebar"></th:block>
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <!-- SIDEBAR -->
+    <th:block th:replace="/fragment/layout/sidebar.html :: sidebar"></th:block>
 
-      <div class="offset-md-2 col-md-10 pt-2">
-        <div class="d-flex flex-column flex-grow-1 h-100">
-          <!-- MAIN CONTENT -->
-          <main>
-            <div layout:fragment="content"></div>
-          </main>
+    <div class="offset-md-2 col-md-10 pt-2">
+      <div class="d-flex flex-column flex-grow-1 h-100">
+        <!-- MAIN CONTENT -->
+        <main>
+          <div layout:fragment="content"></div>
+        </main>
 
-          <!-- FOOTER -->
-          <th:block th:replace="/fragment/layout/footer.html :: footer"></th:block>
-        </div>
+        <!-- FOOTER -->
+        <th:block th:replace="/fragment/layout/footer.html :: footer"></th:block>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- CONFIG JS -->
-  <th:block th:replace="/fragment/configScript/configScript.html :: configScript"></th:block>
+<!-- CONFIG JS -->
+<th:block th:replace="/fragment/configScript/configScript.html :: configScript"></th:block>
 
-  <!-- PAGE JS -->
-  <th:block layout:fragment="script"></th:block>
+<!-- System Variable JS -->
+<th:block th:replace="/fragment/configScript/systemVariable.html :: systemVariable"></th:block>
+
+<!-- PAGE JS -->
+<th:block layout:fragment="script"></th:block>
+
 </body>
 </html>
