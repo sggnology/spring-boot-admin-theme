@@ -24,7 +24,7 @@
   }
 
   const setIcon = function({$iconDom}){
-    if(systemVariable.web_resources_sidebar_icon_icon_is_favicon === "N"){
+    if(systemVariable.web_resources_common_page_icon_icon_is_favicon === "N"){
       $iconDom.addClass(systemVariable.web_resources_common_page_icon)
     }
     else{
