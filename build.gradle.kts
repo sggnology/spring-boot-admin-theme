@@ -7,7 +7,7 @@ plugins {
     kotlin("plugin.spring") version "1.6.10"
 }
 
-group = "com.yellownology"
+group = "com.sggnology"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 

@@ -1,4 +1,4 @@
-package com.yellownology.bootstrapadmintheme.controller.dashboard
+package com.sggnology.bootstrapadmintheme.controller.dashboard
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestMapping

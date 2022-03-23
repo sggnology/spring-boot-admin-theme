@@ -1,4 +1,4 @@
-package com.yellownology.bootstrapadmintheme
+package com.sggnology.bootstrapadmintheme
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

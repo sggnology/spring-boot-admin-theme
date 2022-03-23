@@ -1,4 +1,4 @@
-package com.yellownology.bootstrapadmintheme.controller.member
+package com.sggnology.bootstrapadmintheme.controller.member
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.RequestMapping
